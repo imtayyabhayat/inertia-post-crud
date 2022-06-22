@@ -7593,8 +7593,8 @@ var Header = function Header() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
         className: "navbar-toggler",
         type: "button",
-        "data-toggle": "collapse",
-        "data-target": "#navbarNav",
+        "data-bs-toggle": "collapse",
+        "data-bs-target": "#navbarNav",
         "aria-controls": "navbarNav",
         "aria-expanded": "false",
         "aria-label": "Toggle navigation",
@@ -7747,13 +7747,13 @@ var Create = function Create() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Layouts_Front__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: 'Create Post | ' + title,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "row m-5 p-4",
+      className: "row m-2 p-2",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "col-md-8 offset-2",
+        className: "col-md-8 offset-md-2",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "card",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "card-body",
+            className: "card-body p-2",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
               className: "card-title",
               children: "Create New Post"
@@ -7908,13 +7908,13 @@ var Edit = function Edit() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       className: "row",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "col-md-8 offset-2",
+        className: "col-md-8 offset-md-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
           children: "Edit Post"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "list-group",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: "card m-3",
+            className: "card m-3 p-2",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("form", {
               onSubmit: handleSubmit,
               method: "POST",
@@ -8057,7 +8057,7 @@ var Posts = function Posts() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "row",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "col-md-6 offset-2",
+        className: "col-md-6 offset-md-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
           children: "Posts"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -8098,10 +8098,46 @@ var Posts = function Posts() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "col-md-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
-          children: "Sidebar"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-          children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem, temporibus, vero, voluptate, voluptatem, quia, quam, quaerat, eaque, iste, doloremque, doloribus, accusantium, error, molestiae, eveniet, deleniti, inventore, laboriosam, quisquam, quidem, temporibus, vero, voluptate, voluptatem, quia, quam, quaerat, eaque, iste, doloremque, doloribus "
-        })]
+          children: "Categories"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+          className: "list-group",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "An item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A second item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A third item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A fourth item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "And a fifth one"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          children: "Meta"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+          className: "list-group",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "An item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A second item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A third item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "A fourth item"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+            className: "list-group-item",
+            children: "And a fifth one"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {})]
       })]
     })
   });
@@ -8135,14 +8171,13 @@ __webpack_require__.r(__webpack_exports__);
 var View = function View() {
   var _usePage$props = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.usePage)().props,
       title = _usePage$props.title,
-      post = _usePage$props.post,
-      base_url = _usePage$props.base_url;
+      post = _usePage$props.post;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Layouts_Front__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: 'Posts | ' + title,
+    title: post.title + ' | ' + title,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "row",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "col-md-8 offset-2",
+        className: "col-md-8 offset-md-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
           children: "Single Posts"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -8175,7 +8210,7 @@ var View = function View() {
                 href: post.edit_url,
                 children: "Edit"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.InertiaLink, {
-                className: "btn btn-danger",
+                className: "btn btn-danger float-end",
                 replace: true,
                 method: "POST",
                 data: {
@@ -8183,7 +8218,7 @@ var View = function View() {
                 },
                 role: "button",
                 href: post.delete_url,
-                children: post.delete_url
+                children: "Delete"
               })]
             })]
           }, post.id)

@@ -7,7 +7,7 @@ const Posts = () => {
     return (
         <Front title={'Posts | '+title}>
             <div className="row">
-                <div className="col-md-6 offset-2">
+                <div className="col-md-6 offset-md-2">
                     <h2>Posts</h2>
                     <div className="list-group">
                         {posts.map(post => (
@@ -26,11 +26,24 @@ const Posts = () => {
                     </div>
                 </div>
                 <div className="col-md-2">
-                    <h2>Sidebar</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem, temporibus, 
-                        vero, voluptate, voluptatem, quia, quam, quaerat, eaque, iste, doloremque, doloribus, 
-                        accusantium, error, molestiae, eveniet, deleniti, inventore, laboriosam, quisquam, quidem, 
-                        temporibus, vero, voluptate, voluptatem, quia, quam, quaerat, eaque, iste, doloremque, doloribus </p>
+                    <h2>Categories</h2>
+                    <ul className="list-group">
+                        <li className="list-group-item">An item</li>
+                        <li className="list-group-item">A second item</li>
+                        <li className="list-group-item">A third item</li>
+                        <li className="list-group-item">A fourth item</li>
+                        <li className="list-group-item">And a fifth one</li>
+                    </ul>
+                    <hr />
+                    <h2>Meta</h2>
+                    <ul className="list-group">
+                        <li className="list-group-item">An item</li>
+                        <li className="list-group-item">A second item</li>
+                        <li className="list-group-item">A third item</li>
+                        <li className="list-group-item">A fourth item</li>
+                        <li className="list-group-item">And a fifth one</li>
+                    </ul>
+                    <hr />
                 </div>
             </div>
         </Front>

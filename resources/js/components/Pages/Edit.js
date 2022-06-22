@@ -27,10 +27,10 @@ const Edit = () => {
     return (
         <Front title={name+ ' | Blog'}>
             <div className="row">
-                <div className="col-md-8 offset-2">
+                <div className="col-md-8 offset-md-2">
                     <h2>Edit Post</h2>
                     <div className="list-group">
-                        <div className="card m-3">
+                        <div className="card m-3 p-2">
                             <form onSubmit={handleSubmit} method="POST" encType="multipart/form-data">
                                 <div className="form-group">
                                     <label htmlFor="title">Title</label>

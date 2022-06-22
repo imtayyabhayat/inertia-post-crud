@@ -3,11 +3,11 @@ import React from "react";
 import Front from "../Layouts/Front";
 
 const View = () => {
-    const { title, post, base_url} = usePage().props
+    const { title, post} = usePage().props
     return (
-        <Front title={'Posts | '+title}>
+        <Front title={post.title+' | '+title}>
             <div className="row">
-                <div className="col-md-8 offset-2">
+                <div className="col-md-8 offset-md-2">
                     <h2>Single Posts</h2>
                     <div className="list-group">
                         <div className="card m-3" key={post.id}>
@@ -19,7 +19,7 @@ const View = () => {
                             </div>
                             <div className="card-footer text-muted">
                                 <InertiaLink className="btn btn-primary" href={post.edit_url}>Edit</InertiaLink>
-                                <InertiaLink className="btn btn-danger" replace method="POST" data={{_method:'delete'}} role="button" href={post.delete_url}>{post.delete_url}</InertiaLink>
+                                <InertiaLink className="btn btn-danger float-end" replace method="POST" data={{_method:'delete'}} role="button" href={post.delete_url}>Delete</InertiaLink>
                             </div>
                         </div>
                     </div>

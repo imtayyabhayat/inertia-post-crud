@@ -29,10 +29,10 @@ const Create = () => {
     }
     return (
         <Front title={'Create Post | '+title}>
-            <div className="row m-5 p-4">
-                <div className="col-md-8 offset-2">
+            <div className="row m-2 p-2">
+                <div className="col-md-8 offset-md-2">
                     <div className="card">
-                        <div className="card-body">
+                        <div className="card-body p-2">
                             <h5 className="card-title">Create New Post</h5>
                             <form onSubmit={handleSubmit} method="POST" encType="multipart/form-data">
                                 <div className="form-group">
@@ -56,7 +56,6 @@ const Create = () => {
                             </form>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </Front>
